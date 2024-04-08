@@ -1,0 +1,10 @@
+.navbar-settings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 12px;
+    align-items: center;
+    padding: 0 120px;
+    height: 100%;
+    width: 70px;
+}

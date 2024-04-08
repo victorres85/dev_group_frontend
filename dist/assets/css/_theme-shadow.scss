@@ -1,0 +1,19 @@
+/* Shadow theme */
+[data-bs-theme=shadow] {
+	.sidebar-wrapper {
+		box-shadow: 0 0.5rem 1rem rgba(var(--bs-body-color-rgb), .15)!important;
+	}
+	.card {
+		box-shadow: 0 0.25rem 0.30rem rgba(var(--bs-body-color-rgb), .15)!important;
+	}
+	.top-header .navbar {
+		box-shadow: 0 0.125rem 0.25rem rgba(var(--bs-body-color-rgb), .075)!important;
+		.top-right-menu .nav-item .nav-link ,
+		.btn-toggle-menu {
+			box-shadow: 0 0.125rem 0.25rem rgba(var(--bs-body-color-rgb), .075)!important;
+		}
+	}
+	.search-bar input[disabled] {
+		box-shadow: 0 0.125rem 0.25rem rgba(var(--bs-body-color-rgb), .075)!important;
+	}
+}

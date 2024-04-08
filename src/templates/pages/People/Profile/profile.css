@@ -1,0 +1,18 @@
+.EditUserJoined{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.socialIcons svg path:nth-child(2) {
+    fill: #dee2e6;    
+  }
+
+.profileCover{
+    background-image: url(../../../../../public/assets/profile-bg.jpg);
+    background-size: cover;
+    height: 10rem;
+    background-position: center;
+}

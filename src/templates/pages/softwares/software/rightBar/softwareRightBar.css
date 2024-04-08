@@ -1,0 +1,59 @@
+.CompanyRightBar {
+    width: 240px;
+}
+.CompanyRightBar .material-symbols-outlined {
+		cursor: pointer;
+		svg path:nth-child(2) {
+			fill: #dee2e6;
+		  }
+}
+.CompanyRightBar	li:hover .material-symbols-outlined {
+		color: #ffffff;
+		text-decoration: none;
+		background: #0d6efd;
+		border-color: #0d6efd;
+		transition: ease-out .3s;
+		svg path:nth-child(2) {
+			fill: #fff;
+			transition: ease-out .3s 0.1s;
+		  }
+	  }
+
+.CompanyRightBar .card-header .material-symbols-outlined {
+		cursor: pointer;
+}
+.CompanyRightBar .card-header .material-symbols-outlined svg path:nth-child(2) {
+			fill: #dee2e6;
+}
+
+.CompanyRightBar .card-header .material-symbols-outlined &:hover {
+				color: #ffffff;
+				text-decoration: none;
+				background: var(--bs-success);
+				border-color: var(--bs-success);
+				transition: ease-out .3s;
+}
+.CompanyRightBar .card-header .material-symbols-outlined &:hover svg path:nth-child(2) {
+	fill: #fff;
+	transition: ease-out .3s 0.1s;
+  }
+	
+.CompanyRightBar .card-body .addingStack {
+			transform: scaleY(1);
+			height: fit-content;
+			transition: transform 0.3s ease-in-out, height 0.3s 0.1s ease-in-out;
+			transform-origin: top;
+}
+.CompanyRightBar .card-body .moved-up {
+			position: relative;
+			bottom: 100px; /* adjust this value as needed */
+		  }
+		  
+.CompanyRightBar .card-body  .notAddingStack {
+			transform: scaleY(0);
+			height: 0;
+			transition: transform 0.3s;
+			transition: height 0.5s 0.3s ease-in-out;
+			transform-origin: bottom;
+		  }
+		

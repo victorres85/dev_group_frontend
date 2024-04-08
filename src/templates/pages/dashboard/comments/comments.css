@@ -1,0 +1,36 @@
+.ReactModal__Overlay{
+    z-index:100 !important;
+}
+.sendIcon{
+    width: 24px;
+    height: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+.sendIcon:hover{
+    color: #6ea8fe;
+}
+.comment_btn{
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.comment_btn:hover{
+    color: #6ea8fe;
+    scale: 1.1;
+}
+.comment_btn:active{
+    color: #6ea8fe;
+    scale: 1.2;
+}
+.innerCard{
+    border: 1px solid rgba(110, 168, 254, 0.3);
+    border-radius: 5px; 
+    padding: 2px 0 3px 2px !important;
+    margin: 0 0 3px 10px !important;
+    width: 90%!important;
+}
+.innerComment{
+    border: 1px solid rgba(110, 168, 254, 0.2);
+    background-color: #191b1e;
+    padding-left: 24px;
+}

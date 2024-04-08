@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+  }
+  
+  #errorPage {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translate(0, -50%);
+    text-align: center;
+    font-weight: bold;
+  }
